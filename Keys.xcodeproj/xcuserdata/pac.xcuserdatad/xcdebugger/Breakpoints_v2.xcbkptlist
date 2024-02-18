@@ -14,8 +14,8 @@
             filePath = "Keys/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "155"
-            endingLineNumber = "155"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
             landmarkName = "handleSpotlight(userActivity:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,57 +30,10 @@
             filePath = "Keys/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "144"
-            endingLineNumber = "144"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
             landmarkName = "handleSpotlight(userActivity:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "7BF56D5F-47D8-4516-BF6E-8864A360AC87 - 2dbfd57d076769a8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Keys.ContentView.handleSpotlight(userActivity: __C.NSUserActivity) -&gt; ()"
-                  moduleName = "Keys"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/Keys/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "146"
-                  endingLineNumber = "146"
-                  offsetFromSymbolStart = "600">
-               </Location>
-               <Location
-                  uuid = "7BF56D5F-47D8-4516-BF6E-8864A360AC87 - 2dbfd57d076769ea"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Keys.ContentView.handleSpotlight(userActivity: __C.NSUserActivity) -&gt; ()"
-                  moduleName = "Keys"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/Keys/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "144"
-                  endingLineNumber = "144"
-                  offsetFromSymbolStart = "1212">
-               </Location>
-               <Location
-                  uuid = "7BF56D5F-47D8-4516-BF6E-8864A360AC87 - 2dbfd57d076769c9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Keys.ContentView.handleSpotlight(userActivity: __C.NSUserActivity) -&gt; ()"
-                  moduleName = "Keys"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/Keys/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "145"
-                  endingLineNumber = "145"
-                  offsetFromSymbolStart = "112">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -93,41 +46,11 @@
             filePath = "Keys/KeysApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "handleSpotlight(_:)"
             landmarkType = "7">
             <Locations>
-               <Location
-                  uuid = "3919141A-E909-41D5-B4E1-9AF5C4804A55 - 4e5186ddcc75121b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Keys.KeysApp.body.getter : some"
-                  moduleName = "Keys"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/Keys/KeysApp.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "320">
-               </Location>
-               <Location
-                  uuid = "3919141A-E909-41D5-B4E1-9AF5C4804A55 - ef9b049edcf5596c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Keys.KeysApp.handleSpotlight(__C.NSUserActivity) -&gt; ()"
-                  moduleName = "Keys"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/Keys/KeysApp.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "88">
-               </Location>
                <Location
                   uuid = "3919141A-E909-41D5-B4E1-9AF5C4804A55 - ef9b049edcf5594d"
                   shouldBeEnabled = "Yes"
@@ -143,7 +66,496 @@
                   endingLineNumber = "27"
                   offsetFromSymbolStart = "100">
                </Location>
+               <Location
+                  uuid = "3919141A-E909-41D5-B4E1-9AF5C4804A55 - ef9b049edcf5596c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Keys.KeysApp.handleSpotlight(__C.NSUserActivity) -&gt; ()"
+                  moduleName = "Keys"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/Keys/KeysApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "100">
+               </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E17E42A8-525A-4BF0-8375-C4A890385171"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Keys/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "appShortcuts"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "E17E42A8-525A-4BF0-8375-C4A890385171 - 86dda9a56b4888cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Keys.appShortcutProvider.appShortcuts.getter : Swift.Array&lt;AppIntents.AppShortcut&gt;"
+                  moduleName = "Keys"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/Keys/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "1976">
+               </Location>
+               <Location
+                  uuid = "E17E42A8-525A-4BF0-8375-C4A890385171 - 86dda9a56b4888cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Keys.appShortcutProvider.appShortcuts.getter : Swift.Array&lt;AppIntents.AppShortcut&gt;"
+                  moduleName = "Keys"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/Keys/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "2488">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B44BA2FF-BDA6-4A4B-8BD9-CA83FCC18184"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Keys/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "appShortcuts"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "B44BA2FF-BDA6-4A4B-8BD9-CA83FCC18184 - 86dda9a56b48888d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Keys.appShortcutProvider.appShortcuts.getter : Swift.Array&lt;AppIntents.AppShortcut&gt;"
+                  moduleName = "Keys"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/Keys/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "948">
+               </Location>
+               <Location
+                  uuid = "B44BA2FF-BDA6-4A4B-8BD9-CA83FCC18184 - 86dda9a56b48888d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Keys.appShortcutProvider.appShortcuts.getter : Swift.Array&lt;AppIntents.AppShortcut&gt;"
+                  moduleName = "Keys"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/Keys/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "1568">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B62426DA-39E9-49BB-9A25-D716C0A03B9A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Keys/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "appShortcuts"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "07DD7F40-9BCF-4649-807E-632CE6829448"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Keys/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "appShortcuts"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "07DD7F40-9BCF-4649-807E-632CE6829448 - 86dda9a56b488868"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Keys.appShortcutProvider.appShortcuts.getter : Swift.Array&lt;AppIntents.AppShortcut&gt;"
+                  moduleName = "Keys"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/Keys/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "660">
+               </Location>
+               <Location
+                  uuid = "07DD7F40-9BCF-4649-807E-632CE6829448 - 86dda9a56b488868"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Keys.appShortcutProvider.appShortcuts.getter : Swift.Array&lt;AppIntents.AppShortcut&gt;"
+                  moduleName = "Keys"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/Keys/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "684">
+               </Location>
+               <Location
+                  uuid = "07DD7F40-9BCF-4649-807E-632CE6829448 - 86dda9a56b488b2e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Keys.appShortcutProvider.appShortcuts.getter : Swift.Array&lt;AppIntents.AppShortcut&gt;"
+                  moduleName = "Keys"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/Keys/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "684">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E32418F-7E9A-44A2-B995-DCF8966975C8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Keys/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "copyValue(item:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D45C4E5-F88A-4A93-B656-658B39ABACFD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Keys/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "CopyValue"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79A8110B-2860-435E-9019-DCAF9FFEEC44"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Keys/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "perform()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "79A8110B-2860-435E-9019-DCAF9FFEEC44 - 42c7447b158fe0ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Keys.CopyValue.perform() async throws -&gt; some"
+                  moduleName = "Keys"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/Keys/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "79A8110B-2860-435E-9019-DCAF9FFEEC44 - 42c7447b158fe343"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Keys.CopyValue.perform() async throws -&gt; some"
+                  moduleName = "Keys"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/Keys/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "79A8110B-2860-435E-9019-DCAF9FFEEC44 - 42c7447b158fe343"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Keys.CopyValue.perform() async throws -&gt; some"
+                  moduleName = "Keys"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/Keys/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B8A5826D-1CE4-4F4D-A6BE-F1F92D0F9C3D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Keys/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "perform()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "02AADC15-D131-4B48-985C-A7D50C38731F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Keys/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "CopyValue"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56488BC1-F12A-4BFA-A823-4D0B1FEAEB9A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Keys/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "keyType"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "56488BC1-F12A-4BFA-A823-4D0B1FEAEB9A - ab5593091aee5bee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Keys.CopyValue.keyType.getter : Swift.Optional&lt;Keys.KeyEntity&gt;"
+                  moduleName = "Keys"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/Keys/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "56488BC1-F12A-4BFA-A823-4D0B1FEAEB9A - c28cdb5d3cabea49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Keys.CopyValue.keyType.setter : Swift.Optional&lt;Keys.KeyEntity&gt;"
+                  moduleName = "Keys"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "56488BC1-F12A-4BFA-A823-4D0B1FEAEB9A - 6805ae70979cc5ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Keys.CopyValue.keyType.modify : Swift.Optional&lt;Keys.KeyEntity&gt;"
+                  moduleName = "Keys"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/Keys/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "56488BC1-F12A-4BFA-A823-4D0B1FEAEB9A - 1d2c0a0c2004eeec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Keys.CopyValue.keyType.modify : Swift.Optional&lt;Keys.KeyEntity&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Keys"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "56488BC1-F12A-4BFA-A823-4D0B1FEAEB9A - 997ea41dd46497e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Keys.CopyValue.$keyType.getter : AppIntents.IntentParameter&lt;Swift.Optional&lt;Keys.KeyEntity&gt;&gt;"
+                  moduleName = "Keys"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/Keys/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "56488BC1-F12A-4BFA-A823-4D0B1FEAEB9A - a5f918cadf3e9e30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 0 of Keys.CopyValue.init(keyType: AppIntents.IntentParameter&lt;Swift.Optional&lt;Keys.KeyEntity&gt;&gt;) -&gt; Keys.CopyValue"
+                  moduleName = "Keys"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16DDA491-16EA-4893-B691-82DEEC8D1362"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Keys/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "CopyValue"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "16DDA491-16EA-4893-B691-82DEEC8D1362 - 5c4cddc409b75587"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Keys.CopyValue.KeyNamesOptionsProvider.results() async throws -&gt; Swift.Array&lt;Keys.KeyEntity&gt;"
+                  moduleName = "Keys"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/Keys/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "16DDA491-16EA-4893-B691-82DEEC8D1362 - 5c4cddc409b75587"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Keys.CopyValue.KeyNamesOptionsProvider.results() async throws -&gt; Swift.Array&lt;Keys.KeyEntity&gt;"
+                  moduleName = "Keys"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pac/Desktop/Xcode%20Projs/SwiftData/Keys/Keys/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3509EF0-F103-4E09-B282-264970C6FDE3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Keys/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "perform()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

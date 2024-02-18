@@ -11,7 +11,7 @@
 		07ACE8E02B5CB5970037ED60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ACE8DF2B5CB5970037ED60 /* ContentView.swift */; };
 		07ACE8E22B5CB59D0037ED60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07ACE8E12B5CB59D0037ED60 /* Assets.xcassets */; };
 		07ACE8E52B5CB59D0037ED60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07ACE8E42B5CB59D0037ED60 /* Preview Assets.xcassets */; };
-		07ACE8EE2B65A4C90037ED60 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ACE8ED2B65A4C90037ED60 /* Key.swift */; };
+		07ACE8EE2B65A4C90037ED60 /* KeyEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ACE8ED2B65A4C90037ED60 /* KeyEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,7 @@
 		07ACE8DF2B5CB5970037ED60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		07ACE8E12B5CB59D0037ED60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07ACE8E42B5CB59D0037ED60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		07ACE8ED2B65A4C90037ED60 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		07ACE8ED2B65A4C90037ED60 /* KeyEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyEntity.swift; sourceTree = "<group>"; };
 		07ACE8EF2B65A9260037ED60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +56,7 @@
 			children = (
 				07ACE8EF2B65A9260037ED60 /* Info.plist */,
 				07ACE8DD2B5CB5970037ED60 /* KeysApp.swift */,
-				07ACE8ED2B65A4C90037ED60 /* Key.swift */,
+				07ACE8ED2B65A4C90037ED60 /* KeyEntity.swift */,
 				07ACE8DF2B5CB5970037ED60 /* ContentView.swift */,
 				07ACE8E12B5CB59D0037ED60 /* Assets.xcassets */,
 				07ACE8E32B5CB59D0037ED60 /* Preview Content */,
@@ -144,7 +144,7 @@
 			files = (
 				07ACE8E02B5CB5970037ED60 /* ContentView.swift in Sources */,
 				07ACE8DE2B5CB5970037ED60 /* KeysApp.swift in Sources */,
-				07ACE8EE2B65A4C90037ED60 /* Key.swift in Sources */,
+				07ACE8EE2B65A4C90037ED60 /* KeyEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

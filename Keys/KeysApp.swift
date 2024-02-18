@@ -14,11 +14,10 @@ import CoreSpotlight
 @main
 struct KeysApp: App {
     
-    let viewModel = ViewModel.shared
+    let viewModel = KeyManager.shared
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environmentObject(viewModel)
                 .onContinueUserActivity(CSSearchableItemActionType, perform: handleSpotlight)
            
         }

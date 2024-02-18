@@ -12,35 +12,53 @@ import MobileCoreServices
 
 
 
+//extension KeyType: _IntentValue {
+//    
+//    
+//    public static func _fromInputValue(_ value: Any) -> KeyType? {
+//            guard let stringValue = value as? String else {
+//                return nil
+//            }
+//            return KeyType(rawValue: stringValue)
+//        }
+//
+//        public func _toInputValue() -> Any {
+//            rawValue
+//        }
+//}
+
+
 struct CopyValue: AppIntent {
+    
     static var title: LocalizedStringResource = "Copy value"
 //    @EnvironmentObject var viewModel: ViewModel
-    @Parameter(title: "Key")
-    var key: Key?
+    @Parameter(title: "keyType"/*, optionsProvider: KeyNamesOptionsProvider()*/)
+        var keyType: KeyEntity?
+    
+    
+   
+//    private struct KeyNamesOptionsProvider: DynamicOptionsProvider {
+//        func results() async throws -> [KeyEntity] {
+//              // ["banana", "grapes","apple"]
+//            print(KeyManager.shared.items)
+//            return KeyManager.shared
+//            
+//            }
+//        }
+    
     static var openAppWhenRun = false
     @MainActor
-    func perform() async throws -> some IntentResult & ReturnsValue<String> {
+    func perform() async throws -> some IntentResult & ProvidesDialog & ShowsSnippetView {
+        print(keyType ?? "none")
+        guard let keyType = keyType else {
+            return .result(
+                        dialog: "Okay, starting a meditation session."
+                    )
+        }
         
-        
-      //  let viewModel = ViewModel.shared // Access the shared instance directly
-               
-//               guard let key = key else {
-//                   throw IntentHandlerError.invalidKey
-//               }
-        
-        let valueToCopy: Key
-           if let key = key {
-               valueToCopy = key
-           } else {
-               
-               valueToCopy = try await $key.requestDisambiguation(
-                among: ViewModel.shared.data,
-                dialog: "runnnning")
-           }
-        let contentView = ContentView()
-        contentView.copyValue(item: valueToCopy.value)
-       
-        return .result(value: "copied value of \(valueToCopy.key)")
+        let key = KeyManager.shared.map {$0.value}
+        return .result(dialog: "key of copied")
+      
     }
     
 }
@@ -51,9 +69,14 @@ struct appShortcutProvider: AppShortcutsProvider {
     intent: CopyValue(),
     phrases: ["Copy value ",
               "boiled eggs and potatoes",
-              "Show \(\.$key) in \(.applicationName)",
-              "Show keys in \(.applicationName)"
-             ]
+              "Show \(\CopyValue.$keyType) in \(.applicationName)",
+              "Show keys in \(.applicationName)",
+              "Search in \(.applicationName) for \(\CopyValue.$keyType)",
+              "Copy \(.applicationName) for \(\CopyValue.$keyType)"
+             ],
+    //shortTitle: "\(\.$key)",
+    systemImageName: "doc.on.doc"
+    
     )
     }
 }
@@ -61,7 +84,7 @@ struct appShortcutProvider: AppShortcutsProvider {
 struct ContentView: View {
     
     let appData = ["apple", "banana", "orange", "grape", "strawberry", "kiwi", "watermelon", "pineapple", "mango", "pear"]
-    @StateObject var viewModel = ViewModel.shared
+   // @StateObject var viewModel = KeyManager.shared
     @State var result = ""
     @State private var selection: Int?
     
@@ -73,7 +96,7 @@ struct ContentView: View {
             
             List {
                 Section {
-                    ForEach(ViewModel.shared.data) { value in
+                    ForEach(KeyManager.shared) { value in
                         
                         Text("\(value.key)")
                     }
@@ -83,7 +106,7 @@ struct ContentView: View {
             
             
             Button {
-                IndexData()
+                KeyModel()
             } label: {
                 Text("Index a page").font(.title)
             }
@@ -172,6 +195,7 @@ struct ContentView: View {
     }
 
     
+    
 }
 
 
@@ -182,7 +206,10 @@ enum IntentHandlerError: Error {
     case invalidKey
 }
 
+
+
+
+
 #Preview {
     ContentView()
-        .environmentObject(ViewModel.shared)
 }

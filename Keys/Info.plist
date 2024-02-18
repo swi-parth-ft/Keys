@@ -22,5 +22,9 @@
 			<string>Copy</string>
 		</dict>
 	</array>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>IntentIntent</string>
+	</array>
 </dict>
 </plist>
